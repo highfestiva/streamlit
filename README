@@ -1,0 +1,13 @@
+# AutoMap
+
+A tool for plotting pretty much anything with geo-coordinates in it.
+
+First install Python3 and Streamlit (https://docs.streamlit.io/). Start script by running
+
+```bash
+streamlit run automap.py
+```
+
+A web page opens. Paste your payload or even plain JSON is fine too. Click the 'Parse' button.
+If geo-coordinates were found a bunch of buttons will show up. Click any button to see the
+contents plotted to a map.
